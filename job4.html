@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>城市旅行写生本交流夜 · 社团招新</title>
+    <style>
+        /* 页面整体样式 */
+        body {
+            background-color: #E3F7F7; /* 海盐青背景 */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        /* 页面容器 - 背景色不允许修改 */
+        .page {
+            display: inline-block;
+            background-color: #fefaf5;
+            box-shadow: 0 0 30px rgba(80, 58, 35, 0.25);
+            text-align: left;
+            max-width: 720px;
+            padding: 20px 40px;
+            margin: 0 auto;
+        }
+        
+        /* 并集选择器：所有标题样式 */
+        h1, h2, h3, h4, h5, h6 {
+            color: #2c5530;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        
+        /* ID选择器：重要提示样式 */
+        p#intro {
+            font-weight: bold;
+            color: #d35400;
+            font-size: 1.1em;
+            border-left: 4px solid #d35400;
+            padding-left: 10px;
+        }
+        
+        /* 后代选择器：div里的table里的链接 */
+        div table a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        /* 带类名的链接样式 */
+        a.red {
+            color: #c0392b;
+            font-weight: bold;
+        }
+        
+        a.blue {
+            color: #2980b9;
+            font-weight: bold;
+        }
+        
+        /* 链接伪类 */
+        a:link {
+            text-decoration: underline;
+        }
+        
+        a:visited {
+            text-decoration: underline;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            background-color: #f9f9f9;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        a:active {
+            color: #8e44ad;
+        }
+        
+        /* 伪元素 */
+        p::first-letter {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c5530;
+        }
+        
+        div::first-line {
+            font-weight: bold;
+        }
+        
+        /* 表格样式 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f9f9;
+            color: #2c5530;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        /* 公告区样式 */
+        .notice {
+            background-color: #f8f9fa;
+            border: 1px dashed #2c5530;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        
+        /* 页面区域样式 */
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .links {
+            background-color: #f2f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        /* 链接容器 */
+        .link-container {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- ① 顶部标题区 -->
+        <div class="section">
+            <h1>大明湖畔 · 城市旅行写生本交流夜</h1>
+        </div>
+        
+        <!-- ② 活动介绍区 -->
+        <div class="section">
+            <h2 id="intro">关于城市旅行写生本交流夜</h2>
+            <p>在繁忙的都市生活中，我们常常忽略了身边的风景。"城市旅行写生本交流夜"是一个为城市探索者和艺术爱好者创建的社团，我们致力于通过速写记录城市的脉动，在旅行中发现生活的美好。无论你是经验丰富的画家，还是刚刚开始尝试用画笔记录生活的初学者，都欢迎加入我们的community。</p>
+            <p>本社团每月举办一次"速写之夜"活动，我们会选择济南市内具有特色的地点，如趵突泉街、芙蓉街、曲水亭街等，一起用画笔记录城市风景。每一次的travel不仅是艺术的创作，更是心灵的journey。我们相信，通过画笔与城市的对话，能够发现日常中被忽略的美好。</p>
+            <p id="intro">重要提示：首次参加活动的成员可免费获得我们设计的城市速写本一份，数量有限，请尽早报名！</p>
+        </div>
+        
+        <!-- ③ 活动报名信息表格区 -->
+        <div class="section">
+            <h3>2023秋季活动安排</h3>
+            <table>
+                <tr>
+                    <th>活动日期</th>
+                    <th>活动地点</th>
+                    <th>主题</th>
+                    <th>适合人群</th>
+                </tr>
+                <tr>
+                    <td>9月15日（周五）19:00</td>
+                    <td>趵突泉街写生点</td>
+                    <td>泉城夜色·灯光与水影</td>
+                    <td>初学者友好</td>
+                </tr>
+                <tr>
+                    <td>10月20日（周五）19:00</td>
+                    <td>大明湖新区</td>
+                    <td>秋日湖畔·自然与建筑</td>
+                    <td>中级绘画者</td>
+                </tr>
+                <tr>
+                    <td>11月17日（周五）19:00</td>
+                    <td>芙蓉街历史文化区</td>
+                    <td>老街记忆·传统与现代</td>
+                    <td>所有水平</td>
+                </tr>
+                <tr>
+                    <td>12月15日（周五）19:00</td>
+                    <td>济南老商埠区</td>
+                    <td>冬日街景·历史建筑速写</td>
+                    <td>有基础者</td>
+                </tr>
+            </table>
+        </div>
+        
+        <!-- ④ 页面链接区 -->
+        <div class="section links">
+            <h3>相关资源与链接</h3>
+            <p>了解更多关于我们的活动和社团信息：</p>
+            <div class="link-container">
+                <div>
+                    <a href="https://hongchenwusdnu.github.io/bookstore/job4.html" class="red">查看往期活动照片与作品</a>
+                </div>
+                <div>
+                    <a href="job3.html" class="blue">在线咨询活动详情与报名</a>
+                </div>
+            </div>
+            <p>更多资源：<a href="#">速写技巧指南</a> | <a href="#">旅行写生装备推荐</a> | <a href="#">城市探索路线分享</a></p>
+        </div>
+        
+        <!-- ⑤ 底部公告区 -->
+        <div class="notice">
+            <div>【公告】首次活动将于9月15日在大明湖畔举行，请参加者自带速写本和绘画工具。我们会提供基础的绘画纸张和铅笔供临时需要者使用。期待与大家一起开启这次艺术之旅！<br>集合地点：大明湖新区南门，会有工作人员手持"城市速写"标识牌指引。</div>
+            <div>【公告】为鼓励成员坚持记录，我们将举办"季度最佳速写本"评选活动。每季度提交完整速写本的成员有机会获得精美画材礼包。用画笔记录你的城市journey，让每一次travel都有迹可循。<br>提交时间：每季度最后一周的交流夜活动时提交。</div>
+            <div>【公告】我们正在招募活动志愿者，协助组织写生活动、管理社团社交媒体账号。志愿者将获得优先参与特别活动的机会及定制纪念品。<br>有兴趣的成员请联系社团负责人或通过在线咨询了解更多详情。</div>
+        </div>
+    </div>
+</body>
+</html>
